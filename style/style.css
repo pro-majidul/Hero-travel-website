@@ -27,6 +27,38 @@ h3 {
     color: rgb(255, 84, 0);
 }
 
+.midle-p-text {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px auto;
+    line-height: 26px;
+    text-align: center;
+    width: 500px;
+}
+
+.midle-h4-text {
+    color: rgb(19, 19, 24);
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.normal-p-text {
+    color: rgb(90, 90, 93);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 400px;
+}
+
+.normal-h5-text {
+    color: rgb(19, 19, 24);
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 30px;
+}
+
 
 /* navbar area  */
 .navbar {
@@ -160,10 +192,58 @@ button {
     line-height: 26px;
 }
 
-.tour-container > ul > li {
+.tour-container>ul>li {
     color: rgba(19, 19, 24, 0.7);
     font-size: 16px;
     font-weight: 400;
     margin: 24px;
+    line-height: 26px;
     text-align: left;
 }
+
+/* your destination area style start */
+.destination {
+    padding-bottom: 5rem;
+}
+
+
+
+.card-1,
+.card-2,
+.card-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card-2 {
+    grid-template-columns: 0.7fr 1.5fr 0.8fr;
+}
+
+.card-3 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.country-card {
+    position: relative;
+}
+
+.destination-images {
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+}
+
+.destination-text {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* choice us section style */
