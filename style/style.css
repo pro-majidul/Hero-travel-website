@@ -59,6 +59,11 @@ h3 {
     line-height: 30px;
 }
 
+.card-img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1.5rem;
+}
 
 /* navbar area  */
 .navbar {
@@ -247,3 +252,102 @@ button {
 
 
 /* choice us section style */
+.choice-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.hotel,
+.world-service,
+.Guarenti {
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 25px 48px;
+}
+
+.world-service {
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.Guarenti {
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.price-card {
+    width: 570px;
+    margin: 30px auto;
+}
+
+/* Deal and Discount secton style */
+.deal {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.banner-deal {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.deal-content,
+.discount-content {
+    padding: 2rem 3rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    height: 300px;
+    margin-right:4rem;
+}
+
+.deal-content > p , .discount-content > p {
+    font-size: 1rem;
+    display: inline;
+    margin-right: 1rem;
+    color: rgb(90, 90, 93);
+}
+
+.deal-content > p > i , .discount-content > p > i {
+    color: rgb(255, 84, 0);
+    margin-right: 0.5rem;
+}
+.satorini{
+    margin: 1rem 0;
+}
+.deal-content > h6 , .discount-content > h6 {
+    color: rgb(255, 84, 0);
+    font-size: 1rem;
+    margin: 1rem 0;
+
+}
+.btn-2{
+    margin-top: 1rem;
+}
+
+/* banner-discount area style */
+.banner-discount{
+    background-image: url("../Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+.discount-content{
+    margin-left: 4rem;
+}
+
+/* popular place get lost area style */
